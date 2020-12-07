@@ -25,3 +25,13 @@ The work they do directly affects our lives, yet few constituents connect with t
 # Wireframe
 
 ![Wireframe](extra_media/wireframe_screenshot.png)
+
+# Timeline
+
+Day 1: Finish Udemy crash course on CSS and HTML. Begin learning D3.js
+
+Day 2: Finish D3.js, start rendering basic background images. Begin Civig Information API research.
+
+Day 3: Create input field for address, connect with Civic Information API, swap background images based on Address.
+
+Day 4: Create bubbles for representatives that change based on address. Complete CSS Styling and add links to contact representatives.
