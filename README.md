@@ -24,4 +24,4 @@ The work they do directly affects our lives, yet few constituents connect with t
 
 # Wireframe
 
-![Wireframe](extra_media/GetGov---Wireframe-cc-Premium.pdf)
+![Wireframe](extra_media/wireframe_screenshot.pdf)
