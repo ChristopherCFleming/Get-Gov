@@ -30,7 +30,7 @@ The work they do directly affects our lives, yet few constituents connect with t
 
 Day 1: Finish Udemy crash course on CSS and HTML. Begin learning D3.js
 
-Day 2: Finish D3.js, start rendering basic background images. Begin Civig Information API research.
+Day 2: Finish D3.js, start rendering basic background images. Begin Civic Information API research.
 
 Day 3: Create input field for address, connect with Civic Information API, swap background images based on Address.
 
