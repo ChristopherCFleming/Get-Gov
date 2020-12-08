@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 5%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo span {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+#logo img {
+    width: 60px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header i {
+    font-size: 2.5em;
+}
+
+header i:hover {
+    transform: scale(1.3);
+}
+
+#federal_intro {
+    background-image: url('../../media/white_house.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+
+#federal_introintro p {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #9c9a9ad0;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 2;
+}
+
+
+#state_intro {
+    position: relative;
+    background-image: url('');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+}
+
+
+#state_intro h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+}
+
+#state_intro h1:hover {
+    text-align: center;
+}
+
+#state_intro span {
+    font-style: italic;
+    transition: 0.5s;
+}
+
+#state_intro span:hover {
+    color:  #0F8C79;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+#state_intro details {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+
+#state_intro details strong {
+    font-weight: 600;
+}
+
+
+
+footer {
+    background-image: url('../../media/capital_dome.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
