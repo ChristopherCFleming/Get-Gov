@@ -1,7 +1,7 @@
 //import all style sheets here!
 import "./styles/reset.scss"
 import "./styles/homepage.scss"
-import barchart from './scripts/barchart_general';
+import BarChart from './scripts/barchart_general';
 
 
 
@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
         id: sample
     };
 
-    new barchart(barData);
+    new BarChart(barData);
 })

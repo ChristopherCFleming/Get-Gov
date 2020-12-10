@@ -1,4 +1,7 @@
 import * as d3 from "d3";
+import { html } from "d3";
+
+
 
 class BarChart {
 
@@ -13,10 +16,10 @@ class BarChart {
     const data = [12, 5, 6, 6, 9, 10];
     
     const svg = d3.select("#sample")
-    .append("svg")
-    .attr("width", this.barData.width)
-    .attr("height", this.barData.height)
-    .style("margin-left", 100);
+      .append("svg")
+      .attr("width", this.barData.width)
+      .attr("height", this.barData.height)
+      .style("margin-left", 100);
 
   svg.selectAll("rect")
     .data(data)
