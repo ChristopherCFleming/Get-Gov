@@ -2,7 +2,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1% 5%;
+    background-color: rgb(102, 101, 101);
+    padding: 15px;
 }
 
 #logo {
@@ -19,8 +20,9 @@ header {
 
 hr {
     border-style: none;
-    border-top: solid black 3px;
+    border-top: solid rgb(83, 95, 209) 3px;
     width: 95%;
+    background-color: rgb(102, 101, 101);
 }
 
 #logo img {
