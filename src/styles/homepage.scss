@@ -2,7 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(102, 101, 101);
     padding: 15px;
 }
 
@@ -20,9 +19,10 @@ header {
 
 hr {
     border-style: none;
-    border-top: solid rgb(83, 95, 209) 3px;
+    border-top: solid rgb(17, 17, 17) 3px;
     width: 95%;
     background-color: rgb(102, 101, 101);
+    margin: 5px;
 }
 
 #logo img {
@@ -39,7 +39,7 @@ hr {
     padding: 50px 0px;
 }
 
-#federal_introintro p {
+#federal_intro p {
     width: 60%;
     margin: 0 auto;
     background-color: #9c9a9ad0;
