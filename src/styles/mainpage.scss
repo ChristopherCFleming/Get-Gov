@@ -3,6 +3,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+
+    img {
+        width: 40px;
+    }
 }
 
 #logo {
@@ -12,8 +16,8 @@ header {
 
 #logo span {
     font-size: 2em;
-    font-family: 'Gill Sans';
-    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     letter-spacing: 1.2px;
 }
 
@@ -21,12 +25,12 @@ hr {
     border-style: none;
     border-top: solid rgb(17, 17, 17) 3px;
     width: 95%;
-    background-color: rgb(102, 101, 101);
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
 }
 
 #logo img {
-    width: 40px;
+    width: 60px;
 }
 
 
@@ -40,7 +44,7 @@ hr {
 }
 
 #federal_intro p {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     background-color: #9c9a9ad0;
     border-radius: 15px;
@@ -61,7 +65,7 @@ hr {
 
 
 #state_intro h1 {
-    font-family: 'Gill Sans';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     letter-spacing: 0.7px;
     font-weight: 500;
@@ -78,14 +82,14 @@ hr {
 
 #state_intro span:hover {
     color:  #0F8C79;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.5em;
     font-style: normal;
 }
 
 #state_intro details {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 

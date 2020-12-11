@@ -1,6 +1,6 @@
 //import all style sheets here!
-import "./styles/second_reset.scss"
-import "./styles/homepage.scss"
+import "./styles/reset.scss"
+import "./styles/mainpage.scss"
 import BarChart from './scripts/barchart_general';
 
 

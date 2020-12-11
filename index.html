@@ -7,6 +7,7 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <link rel="stylesheet" href="./dist/main.css" />
     <link rel="icon" href="./media/favicon2.ico">
+    <script src="https://kit.fontawesome.com/a7b33120f1.js" crossorigin="anonymous"></script>
     <script src="./dist/main.js"></script>
     <title>Get Gov</title>
     
@@ -20,25 +21,36 @@
       </div>
         
       <nav>
-        <a id="linkedin" href="https://www.linkedin.com/in/christophercfleming/" target="_blank">
-            <i class="fab fa-linkedin"></i>
+        <a id="portfolio" href="https://www.linkedin.com/in/christophercfleming/" target="_blank">
+          <img src="./media/person_icon.png" alt="Portfolio">
         </a>
-        &nbsp;
+        
+
+        <a id="linkedin" href="https://www.linkedin.com/in/christophercfleming/" target="_blank">
+          <img src="./media/linkedin_icon.png" alt="LinkedIn">
+        </a>
+        
 
         <a id="github" href="https://github.com/ChristopherCFleming" target="_blank">
-            <i class="fab fa-github-square"></i>
+          <img src="./media/github_icon.png" alt="GitHub">
         </a>
+        
 
+        <a href="https://github.com/ChristopherCFleming">
+          <img src="./media/angel_list_icon.png" alt="AngelList">
+        </a>
       </nav>
     </header>
     
     <hr class="shorter">
 
     <section id="federal_intro">
-        <h2>Federal</h2>
-        <p>
-            Git gov intro and Federal blurb here.
-        </p>
+      <p>
+        Welcome to Get Gov. Please enter your address to find all your representatives listed below. These elected officials are tasked to represent your interests in our government. They work for you. To best do their job, it's important they have a clear idea of what it is that will win your approval and ultimately your vote. Let them know what's on your mind!
+        <br>
+        <br>
+        Your representatives at the federal level set country-wide laws that all states must follow. The interpretations and implementations of these laws vary from state to state, but the general outline is made here, at the federal level. Reach out to these representatives to discuss any of the following topics: Mediare for All, A Green New Deal, Net Neutrality, civil rights, voting rights, international relations, federal taxes, federal court appointments. 
+      </p>
     </section>
 
     <div id="federal_d3">
@@ -53,13 +65,16 @@
 
     <div id="state_d3">
       <svg id="sample"></svg>
-      <p>Second D3 Part here (State)</p>
+      <p>
+        <h3>State Level</h3>
+        Second D3 Part here (State)
+      </p>
 
     </div>
 
     <footer>
 
     </footer>
-</body>
+  </body>
 
 </html>
