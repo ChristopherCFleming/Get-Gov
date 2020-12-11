@@ -49,6 +49,7 @@ hr {
     background-color: #9c9a9ad0;
     border-radius: 15px;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
 }
 
@@ -63,38 +64,14 @@ hr {
     padding: 20px 0px;
 }
 
-
-#state_intro h1 {
+#state_intro p {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #9c9a9ad0;
+    border-radius: 15px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
-    letter-spacing: 0.7px;
-    font-weight: 500;
-}
-
-#state_intro h1:hover {
-    text-align: center;
-}
-
-#state_intro span {
-    font-style: italic;
-    transition: 0.5s;
-}
-
-#state_intro span:hover {
-    color:  #0F8C79;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
-    font-style: normal;
-}
-
-#state_intro details {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-}
-
-#state_intro details strong {
-    font-weight: 600;
+    line-height: 2;
 }
 
 
